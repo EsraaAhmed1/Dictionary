@@ -194,19 +194,7 @@ node* lastNode(node* root,char* x)
 int main()
 {
     node* root=NULL;
-    //root=insert(root,"hi");
-    //root=insert(root,"esraa");
-    //root=insert(root,"roro");
-    //root=insert(root,"alaa");
-    //preOrder(root);
-    //printf("\n");
-    //inOrder(root);
-    //printf("\n");
-    //postOrder(root);
-    //printf("\n");
-    //int x;
-    //x=countNodes(root);
-    //printf("%d",x);
+    
     FILE* f=fopen("EN-US-Dictionary.txt","r");
     if(!f)
     {
